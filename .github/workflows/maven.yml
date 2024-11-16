@@ -51,11 +51,11 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t adijaiswal/boardgame:latest .
+        docker build -t anandkumarrai021/boardgame:latest .
 
     - name: Trivy Image Scan
       run: |
-        trivy image --format table -o trivy-image-report.html adijaiswal/board:latest
+        trivy image --format table -o trivy-image-report.html anandkumarrai021/board:latest
     
     - name: Login to Docker Hub
       uses: docker/login-action@v3
@@ -65,7 +65,7 @@ jobs:
 
     - name: Push Docker Image
       run: |
-          docker push adijaiswal/boardgame:latest
+          docker push anandkumarrai021/boardgame:latest
 
 
 
