@@ -1,7 +1,7 @@
-# Deploying BoardGame on Kubernetes through a CI/CD Pipeline
+# Deploying StaticGame on Kubernetes using DevSecOps Pipeline
 
 
-![Alt text](https://github.com/anandkumarrai02/BoardGame-Kube-Automator/blob/main/Deployment-Phases/Img/Screenshot%202024-08-04%20021642.png)
+![Alt text](https://github.com/anandkumarrai02/static-game/blob/main/vpc.png)
 The primary purpose of this project is to automate the software delivery lifecycle, from code compilation to deployment, thereby accelerating time-to-market, enhancing product quality, and reducing manual errors. The key objectives include:
 
 - Establishing a seamless CI/CD pipeline using Jenkins to automate various stages of the software delivery process.
@@ -62,7 +62,7 @@ pipeline includes the following steps:
 - Utilized Prometheus & Grafana for effective visualization and analysis
   
 
-**[Check out the complete descriptive blog about the project!!](https://drive.google.com/file/d/1DapGlwQqWUzqlOgzgsl-ULP5RfdAFFZb/view?usp=sharing)**
+**[Check out the complete descriptive blog about the project!!](https://drive.google.com/file/d/1F9sWwbP_TcaCAQJMdLcD01gtimfCflg4/view?usp=sharing)**
 
 ## Achievements & Benefits:
 
